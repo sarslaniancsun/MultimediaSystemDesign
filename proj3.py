@@ -9,7 +9,7 @@ import shlex
 from sys import stdout
 
 
-myclient = pymongo.MongoClient("mongodb+srv://shant21:shant@proj2.8w9yghw.mongodb.net/test")
+myclient = pymongo.MongoClient("mongoDBlink")
 mydb = myclient["mycollections"]
 mycolMeta = mydb["meta"]
 mycolLoc = mydb["locFile"]
